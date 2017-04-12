@@ -14,6 +14,12 @@
 * Link Docker: https://docs.docker.com/engine/installation/
 * Link Compose: https://docs.docker.com/compose/install/
 
+> Sem composer
+```
+$ docker run -v mongo_data:/data/db -p 27017:27017 mongo
+```
+
+> Com o composer
 ```
 $ docker-compose up -d
 ```
@@ -39,3 +45,17 @@ $ mkdir fidelis
 $ cd fidelis
 $ yo keystone
 ```
+
+![Start](http://i.imgur.com/tLotxO7.png)
+
+## Start no projeto
+
+```
+$ node keystone
+```
+
+![Run](http://i.imgur.com/ZPJauiD.png)
+
+![Startpage](http://i.imgur.com/DELlnHe.png)
+
+![Admin](http://i.imgur.com/C4lWKbs.png)
